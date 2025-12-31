@@ -41,6 +41,8 @@ Response:
 }
 ```
 
+![User Registration](Screenshots/postman-register.png)
+
 ---
 
 ## Phase 2: Core Authentication (Completed)
@@ -70,7 +72,7 @@ Response:
 }
 ```
 
-![User Registration](Screenshots/postman-register.png)
+![Check Health](Screenshots/postman-health.png)
 
 ---
 

@@ -41,7 +41,7 @@ Response:
 }
 ```
 
-![User Registration](Screenshots/postman-register.png)
+![Check Health](Screenshots/postman-health.png)
 
 ---
 
@@ -72,7 +72,7 @@ Response:
 }
 ```
 
-![Check Health](Screenshots/postman-health.png)
+![User Registration](Screenshots/postman-register.png)
 
 ---
 

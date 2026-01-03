@@ -9,6 +9,8 @@ import (
 	"github.com/randhir/aegis-core/internal/utils"
 )
 
+const refreshTokenValidity = 7 * 24 * time.Hour
+
 type AuthService struct{}
 
 func NewAuthService() *AuthService {
@@ -75,7 +77,7 @@ func (s *AuthService) Login(email, password string) (string, string, error) {
 		return "", "", utils.ErrInternalError
 	}
 
-	expiresAt := time.Now().Add(7 * 24 * time.Hour)
+	expiresAt := time.Now().Add(refreshTokenValidity)
 	_, err = repository.CreateRefreshToken(user.ID, tokenID, refreshToken, expiresAt)
 	if err != nil {
 		return "", "", utils.ErrInternalError
@@ -83,4 +85,3 @@ func (s *AuthService) Login(email, password string) (string, string, error) {
 
 	return accessToken, refreshToken, nil
 }
-

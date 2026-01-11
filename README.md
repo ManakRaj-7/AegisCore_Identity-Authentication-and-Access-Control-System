@@ -9,11 +9,11 @@ AegisCore provides a complete authentication and authorization system ready for 
 
 ## Project Status
 
-✅ Phase 1 – Foundation Setup (Completed)  
-✅ Phase 2 – Core Authentication: Register & Login (Completed)  
-✅ Phase 3 – Authorization & RBAC (Completed)  
-✅ Phase 4 – Token Lifecycle & Logout (Completed)  
-✅ Phase 5 – Final Polish & Stability (Completed)
+Phase 1 – Foundation Setup (Completed)  
+Phase 2 – Core Authentication: Register & Login (Completed)  
+Phase 3 – Authorization & RBAC (Completed)  
+Phase 4 – Token Lifecycle & Logout (Completed)  
+Phase 5 – Final Polish & Stability (Completed)
 
 ---
 

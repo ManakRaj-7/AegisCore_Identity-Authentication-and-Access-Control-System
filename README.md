@@ -2,7 +2,6 @@
 
 AegisCore is a backend-only, industry-grade identity authentication and access control system built with Go.
 The project is being developed incrementally in clearly defined phases, following clean architecture and real-world backend security practices.
-
 AegisCore provides a complete authentication and authorization system ready for production use.
 
 ---
